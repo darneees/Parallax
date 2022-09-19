@@ -21,7 +21,7 @@ https://unsplash.com/
 
 ## Deployed
 
-
+https://darneees.github.io/Parallax/
 
 <h3 align="center">
 
