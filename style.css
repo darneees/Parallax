@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.conteudo {
+    width: 100%;
+    margin: 0 auto;
+}
+.sessaoImage {
+    background-image: url(imgs/earth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sessaoImage h1 {
+    background: rgba( 249, 249, 249, 0.65 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    mix-blend-mode: screen;
+    text-transform: uppercase;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+.sessaoTexto {
+    background-color: #111111;
+    width: 100%;
+    height: 100vh !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.seTexto {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: #9a9a9a;
+}
+.seTexto p {
+    margin-bottom: 30px;
+}
+.seTexto:last-child {
+    margin-bottom: 0;
+}
+.sessaoImage2 {
+    background-image: url(imgs/eyes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sessaoImage2 h1 {
+    background: rgba( 249, 249, 249, 0.65 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    mix-blend-mode: screen;
+    text-transform: uppercase;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 35px;
+}
+.sessaoTexto2 {
+    background-color: #111111;
+    width: 100%;
+    height: 100vh !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.seTexto2 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: #9a9a9a;
+}
+.seTexto2 p {
+    margin-bottom: 30px;
+}
+.seTexto2:last-child {
+    margin-bottom: 0;
+}
+.sessaoImage3 {
+    background-image: url(imgs/telescophe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sessaoImage3 h1 {
+    background: rgba( 249, 249, 249, 0.65 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    mix-blend-mode: screen;
+    text-transform: uppercase;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 35px;
+}
+.sessaoTexto3 {
+    background-color: #111111;
+    width: 100%;
+    height: 100vh !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.seTexto3 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: #9a9a9a;
+}
+.seTexto3 p {
+    margin-bottom: 30px;
+}
+.seTexto3:last-child {
+    margin-bottom: 0;
+}
+.sessaoImage4 {
+    background-image: url(imgs/nebulosa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sessaoImage4 h1 {
+    background: rgba( 249, 249, 249, 0.65 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    mix-blend-mode: screen;
+    text-transform: uppercase;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 35px;
+    text-align: center;
+}
+@media (max-width: 1080px) {
+    .conteudo {
+        position: relative;
+        width: 100%;
+    }
+}
+@media (max-width: 992px) {
+    .conteudo {
+        position: relative;
+        width: 100%;
+    }
+    .sessaoTexto , .sessaoTexto2 , .sessaoTexto3 {
+        width: 100%;
+        height: 100vh;
+    }
+    .seTexto , .seTexto2 , .seTexto3{
+        width: 80%;
+    }
+}
+@media (max-width: 720px) {
+    .conteudo {
+        position: relative;
+        width: 100%;
+    }
+    .sessaoImage h1 , .sessaoImage2 h1 , .sessaoImage3 h1 , .sessaoImage4 h1 {
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 30px;
+    }
+    .sessaoTexto , .sessaoTexto2 , .sessaoTexto3 {
+        width: 100%;
+        height: 100vh;
+    }
+    .seTexto , .seTexto2 , .seTexto3{
+        width: 60%;
+    }
+}
+
+@media (max-width: 450px) {
+    .conteudo {
+        position: relative;
+        width: 100%;
+    }
+    .sessaoImage h1 , .sessaoImage2 h1 , .sessaoImage3 h1 , .sessaoImage4 h1 {
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    .sessaoTexto , .sessaoTexto2 , .sessaoTexto3 {
+        width: 100%;
+        height: 100vh;
+    }
+    .seTexto , .seTexto2 , .seTexto3{
+        width: 65%;
+    }
+}
